@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamSWAT.CustomLocation", "SamSWAT.CustomLocation\SamSWAT.CustomLocation.csproj", "{A159CAD4-1477-4274-92AC-501057502221}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A159CAD4-1477-4274-92AC-501057502221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A159CAD4-1477-4274-92AC-501057502221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A159CAD4-1477-4274-92AC-501057502221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A159CAD4-1477-4274-92AC-501057502221}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
