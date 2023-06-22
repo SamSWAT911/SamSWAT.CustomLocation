@@ -2,7 +2,6 @@
 using System.IO;
 using System.Reflection;
 using BepInEx;
-using SamSWAT.CustomLocation.Database;
 using SamSWAT.CustomLocation.Patches;
 using UnityEngine;
 
@@ -12,23 +11,19 @@ namespace SamSWAT.CustomLocation
     public class Plugin : BaseUnityPlugin
     {
         public static string RelativePath;
-        public static string Directory;
         
         private void Awake()
         {
             SetDirectories();
-            new AddLocationToDatabasePatch().Enable();
             new ScenePresetLoaderPatch().Enable();
             new CacheLocationLootPatch().Enable();
-            new LoadLocationLootPatch().Enable();
-            new OfflineRaidSavePatch().Enable();
             new LoadingScreenPatch().Enable();
         }
 
         private static void SetDirectories()
         {
-            Directory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\";
-            var pluginDirUri = new Uri(Directory);
+            var directory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\";
+            var pluginDirUri = new Uri(directory);
             var eftUri = new Uri(Application.streamingAssetsPath + "\\Windows\\");
             RelativePath = Uri.UnescapeDataString(eftUri.MakeRelativeUri(pluginDirUri).OriginalString);
         }

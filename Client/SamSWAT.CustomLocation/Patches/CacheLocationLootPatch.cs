@@ -25,7 +25,12 @@ namespace SamSWAT.CustomLocation.Patches
         [PatchPrefix]
         private static bool PatchPrefix(string locationId)
         {
-            return locationId != "debuglocation";
+            if (locationId == "testmap")
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }

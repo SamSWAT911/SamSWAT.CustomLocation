@@ -1,0 +1,15 @@
+﻿/packages/
+/.idea/
+/Client/.idea/
+/Client/SamSWAT.CustomLocation/bin/
+/Client/SamSWAT.CustomLocation/obj/
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.SamSWAT.CustomLocation.iml
+# Editor-based HTTP Client requests
+/httpRequests/

@@ -1,0 +1,346 @@
+{
+    "base": {
+        "AccessKeys": [],
+        "Area": 0.9,
+        "AveragePlayTime": 666,
+        "AveragePlayerLevel": 1,
+        "Banners": [
+            {
+                "id": "5807bfe124597742a92e0a4c",
+                "pic": {
+                    "path": "CONTENT/banners/norvinskzone.jpg",
+                    "rcid": ""
+                }
+            }
+        ],
+        "BossLocationSpawn": [],
+        "BotAssault": 0,
+        "BotEasy": 0,
+        "BotHard": 0,
+        "BotImpossible": 0,
+        "BotLocationModifier": {
+            "AccuracySpeed": 1,
+            "DistToActivate": 140,
+            "DistToPersueAxemanCoef": 0.9,
+            "DistToSleep": 150,
+            "GainSight": 1,
+            "KhorovodChance": 0,
+            "MagnetPower": 15,
+            "MarksmanAccuratyCoef": 1,
+            "Scattering": 1,
+            "VisibleDistance": 1
+        },
+        "BotMarksman": 0,
+        "BotMax": 0,
+        "BotMaxPlayer": 0,
+        "BotMaxTimePlayer": 0,
+        "BotNormal": 0,
+        "BotSpawnTimeOffMax": 0,
+        "BotSpawnTimeOffMin": 0,
+        "BotSpawnTimeOnMax": 0,
+        "BotSpawnTimeOnMin": 0,
+        "BotStart": 0,
+        "BotStop": 0,
+        "Description": "Test map made mainly just4fun",
+        "DisabledForScav": false,
+        "DisabledScavExits": "",
+        "Enabled": true,
+        "EnabledCoop": false,
+        "EscapeTimeLimit": 999,
+        "EscapeTimeLimitCoop": 15,
+        "GenerateLocalLootCache": true,
+        "GlobalLootChanceModifier": 0.2,
+        "IconX": 355,
+        "IconY": 260,
+        "Id": "testmap",
+        "Insurance": true,
+        "IsSecret": false,
+        "Locked": false,
+        "Loot": [],
+        "MaxBotPerZone": 4,
+        "MaxCoopGroup": 6,
+        "MaxDistToFreePoint": 900,
+        "MaxPlayers": 6,
+        "MinDistToExitPoint": 30,
+        "MinDistToFreePoint": 10,
+        "MinMaxBots": [],
+        "MinPlayers": 4,
+        "Name": "Test map",
+        "NewSpawn": true,
+        "OcculsionCullingEnabled": true,
+        "OldSpawn": false,
+        "OpenZones": "BotZone",
+        "PmcMaxPlayersInGroup": 5,
+        "Preview": {
+            "path": "",
+            "rcid": ""
+        },
+        "RequiredPlayerLevelMin": 0,
+        "RequiredPlayerLevelMax": 100,
+        "Rules": "AvoidOwnPmc",
+        "SafeLocation": false,
+        "ScavMaxPlayersInGroup": 4,
+        "Scene": {
+            "path": "maps/dev_preset.bundle",
+            "rcid": "arena.scenespreset.asset"
+        },
+        "SpawnPointParams": [
+            {
+                "BotZoneName": "",
+                "Categories": [
+                    "Player"
+                ],
+                "ColliderParams": {
+                    "_parent": "SpawnSphereParams",
+                    "_props": {
+                        "Center": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "Radius": 5
+                    }
+                },
+                "DelayToCanSpawnSec": 4,
+                "Id": "pmcspawn1",
+                "Infiltration": "Main",
+                "Position": {
+                    "x": 30.75,
+                    "y": 0.255,
+                    "z": 0
+                },
+                "Rotation": 90,
+                "Sides": [
+                    "Usec",
+                    "Bear"
+                ]
+            },
+            {
+                "BotZoneName": "BotZone",
+                "Categories": [
+                    "Bot"
+                ],
+                "ColliderParams": {
+                    "_parent": "SpawnSphereParams",
+                    "_props": {
+                        "Center": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "Radius": 5
+                    }
+                },
+                "DelayToCanSpawnSec": 4,
+                "Id": "botspawn1",
+                "Infiltration": "",
+                "Position": {
+                    "x": 75,
+                    "y": 0.255,
+                    "z": 10
+                },
+                "Rotation": 270,
+                "Sides": [
+                    "Savage"
+                ]
+            },
+            {
+                "BotZoneName": "BotZone",
+                "Categories": [
+                    "Bot"
+                ],
+                "ColliderParams": {
+                    "_parent": "SpawnSphereParams",
+                    "_props": {
+                        "Center": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "Radius": 5
+                    }
+                },
+                "DelayToCanSpawnSec": 4,
+                "Id": "botspawn2",
+                "Infiltration": "",
+                "Position": {
+                    "x": 75,
+                    "y": 0.255,
+                    "z": 0
+                },
+                "Rotation": 270,
+                "Sides": [
+                    "Savage"
+                ]
+            },
+            {
+                "BotZoneName": "BotZone",
+                "Categories": [
+                    "Bot"
+                ],
+                "ColliderParams": {
+                    "_parent": "SpawnSphereParams",
+                    "_props": {
+                        "Center": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "Radius": 5
+                    }
+                },
+                "DelayToCanSpawnSec": 4,
+                "Id": "botspawn3",
+                "Infiltration": "",
+                "Position": {
+                    "x": 75,
+                    "y": 0.255,
+                    "z": -10
+                },
+                "Rotation": 270,
+                "Sides": [
+                    "Savage"
+                ]
+            }
+        ],
+        "UnixDateTime": 1675971898,
+        "_Id": "testmap",
+        "doors": [],
+        "exit_access_time": 60,
+        "exit_count": 3,
+        "exit_time": 1,
+        "exits": [
+            {
+                "Chance": 100,
+                "EntryPoints": "Main",
+                "ExfiltrationTime": 10,
+                "Id": "",
+                "MaxTime": 0,
+                "MinTime": 0,
+                "Name": "EP",
+                "PlayersCount": 0
+            }
+        ],
+        "filter_ex": [],
+        "limits": [],
+        "matching_min_seconds": 45,
+        "maxItemCountInLocation": [
+            {
+                "TemplateId": "54009119af1c881c07000029",
+                "Value": 0
+            }
+        ],
+        "sav_summon_seconds": 60,
+        "tmp_location_field_remove_me": 0,
+        "users_gather_seconds": 0,
+        "users_spawn_seconds_n": 120,
+        "users_spawn_seconds_n2": 180,
+        "users_summon_seconds": 0,
+        "waves": [
+            {
+                "BotPreset": "normal",
+                "BotSide": "Savage",
+                "SpawnPoints": "BotZone",
+                "WildSpawnType": "assault",
+                "isPlayers": false,
+                "number": 0,
+                "slots_max": 2,
+                "slots_min": 1,
+                "time_max": 5,
+                "time_min": 0
+            },
+            {
+                "BotPreset": "normal",
+                "BotSide": "Savage",
+                "SpawnPoints": "BotZone",
+                "WildSpawnType": "assault",
+                "isPlayers": false,
+                "number": 1,
+                "slots_max": 4,
+                "slots_min": 1,
+                "time_max": -1,
+                "time_min": -1
+            },
+            {
+                "BotPreset": "hard",
+                "BotSide": "Savage",
+                "SpawnPoints": "BotZone",
+                "WildSpawnType": "assault",
+                "isPlayers": true,
+                "number": 2,
+                "slots_max": 3,
+                "slots_min": 1,
+                "time_max": 10,
+                "time_min": 5
+            },
+            {
+                "BotPreset": "normal",
+                "BotSide": "Savage",
+                "SpawnPoints": "BotZone",
+                "WildSpawnType": "assault",
+                "isPlayers": true,
+                "number": 3,
+                "slots_max": 3,
+                "slots_min": 0,
+                "time_max": 20,
+                "time_min": 10
+            },
+            {
+                "BotPreset": "normal",
+                "BotSide": "Savage",
+                "SpawnPoints": "BotZone",
+                "WildSpawnType": "assault",
+                "isPlayers": true,
+                "number": 4,
+                "slots_max": 3,
+                "slots_min": 2,
+                "time_max": 500,
+                "time_min": 410
+            },
+            {
+                "BotPreset": "hard",
+                "BotSide": "Savage",
+                "SpawnPoints": "BotZone",
+                "WildSpawnType": "assault",
+                "isPlayers": true,
+                "number": 5,
+                "slots_max": 3,
+                "slots_min": 1,
+                "time_max": 510,
+                "time_min": 460
+            },
+            {
+                "BotPreset": "hard",
+                "BotSide": "Savage",
+                "SpawnPoints": "BotZone",
+                "WildSpawnType": "assault",
+                "isPlayers": false,
+                "number": 6,
+                "slots_max": 3,
+                "slots_min": 1,
+                "time_max": 1500,
+                "time_min": 1200
+            },
+            {
+                "BotPreset": "hard",
+                "BotSide": "Savage",
+                "SpawnPoints": "BotZone",
+                "WildSpawnType": "assault",
+                "isPlayers": false,
+                "number": 7,
+                "slots_max": 3,
+                "slots_min": 0,
+                "time_max": 1700,
+                "time_min": 1600
+            }
+        ]
+    },
+    "looseLoot": {
+        "spawnpointCount": {
+            "mean": 0,
+            "std": 0
+        },
+        "spawnpointsForced": [],
+        "spawnpoints": []
+    }
+}
